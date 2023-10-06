@@ -1,0 +1,43 @@
+ {feedback?.map((message, index) => {
+      return(
+        <div
+      key={index + message.sender}
+      className={
+        "flex flex-col "
+      }
+    >
+      
+      {/* Sender */}
+      <div className="mt-4">
+        
+        <p
+          className={
+            "ml-2 italic text-blue-500"
+          }
+        >
+          {message.sender}
+        </p>
+
+        {/* Message */}
+        <Expander className="my-expander" type="single">
+          <ExpanderItem title="Section 1 title" value="item-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </ExpanderItem>
+          <ExpanderItem title="Section 2 title" value="item-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </ExpanderItem>
+        </Expander>
+        <button className = "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">More Infor</button>
+      </div>
+      
+
+      {/* Text Message */}
+      <div className="mt-4">
+        <p>{message.text}</p>
+      </div>
+    </div>
+      );
+        
+      })}
