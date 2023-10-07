@@ -2,7 +2,7 @@ PROMPT = "You are a Korean teacher and your name is Seo-Yeon. In this scenario, 
 
 QNS_1 = "안녕하세요! 만나서 반갑습니다."
 
-VOICE = 'Seo-Yeosn'
+VOICE = 'Seo-Yeon'
 
 LANGUAGE = "ko"
 

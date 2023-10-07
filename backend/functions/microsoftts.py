@@ -6,7 +6,7 @@ def microsoft_tts(audio_path):
     # This example requires environment variables named "SPEECH_KEY" and "SPEECH_REGION"
     speech_config = speechsdk.SpeechConfig(subscription='863b1a8ff66a409a943d7c06f079090e', region='southeastasia')
     #speech_config.speech_recognition_language="ko-KR"
-    speech_config.speech_recognition_language="ko-KR"
+    speech_config.speech_recognition_language="en-US"
 
     #audio_config = speechsdk.audio.AudioConfig(use_default_microphone=True)
     #speech_recognizer = speechsdk.SpeechRecognizer(speech_config=speech_config, audio_config=audio_config)

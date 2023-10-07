@@ -82,7 +82,7 @@ functions = [
                 },
                 "suggested_answer":{
                     "type":"string",
-                    "description":"Suggest one model answer for the question based on the user's mistake"
+                    "description":"Suggest one model answer for the question based on the user's mistake, with same formality as the user"
                 },
                 "grammar_score":{
                     "type":"integer",

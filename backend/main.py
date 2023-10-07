@@ -45,7 +45,7 @@ app.add_middleware(
 #                                                            #
 ##############################################################
 
-curr_ques_pair = { 'question': ' 학교가 어디에 있어요?   ', 
+curr_ques_pair = { 'question': ' How old are you?    ', 
                  'answer': ''
                  }
 
